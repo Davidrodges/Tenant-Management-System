@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+<<<<<<< HEAD
       <module fileurl="file://$PROJECT_DIR$/TenantManagementSystem.iml" filepath="$PROJECT_DIR$/TenantManagementSystem.iml" />
+=======
+      <module fileurl="file://$PROJECT_DIR$/TenantManagementProjectGroupD.iml" filepath="$PROJECT_DIR$/TenantManagementProjectGroupD.iml" />
+>>>>>>> 4afaaf91804255c22eb4997fe0f1ff21349e5193
     </modules>
   </component>
 </project>
