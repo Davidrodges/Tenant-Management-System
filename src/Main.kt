@@ -148,5 +148,46 @@ fun main() {
             println(tenant)
         }
     }
->>>>>>> 4afaaf91804255c22eb4997fe0f1ff21349e5193
+
 }
+    // Task 4.1
+    val balance = monthlyRent - amountPaid
+    println("Balance: KES $balance")
+
+// Task 4.2
+    val percentPaid = (amountPaid / monthlyRent) * 100
+    println("Paid: $percentPaid%")
+
+    val percentPaidCorrect = (amountPaid.toDouble() / monthlyRent) * 100
+    println("Paid: ${percentPaidCorrect.toInt()}%")
+
+// Task 4.3
+    val instalment = 6000
+    val rent = 25000
+
+    val fullInstalments = rent / instalment
+    val remainingAmount = rent % instalment
+
+    println("Full instalments: $fullInstalments")
+    println("Remaining amount: KES $remainingAmount")
+
+// Task 4.4
+    val totalRent = monthlyRent.times(6)
+    println("Total rent: KES $totalRent")
+
+// Task 4.5
+    val isRentPaid = amountPaid >= monthlyRent
+    println("Is rent paid? $isRentPaid")
+
+// Task 4.6
+    val monthsInArrears = 2
+    val needsReminder = balance > 0 && monthsInArrears > 1
+
+    println("Needs reminder: $needsReminder")                                  output                                                                                   Balance: KES 5000
+    Paid: 0%
+    Paid: 80%
+    Full instalments: 4
+    Remaining amount: KES 1000
+    Total rent: KES 150000
+    Is rent paid? false
+    Needs reminder: true
